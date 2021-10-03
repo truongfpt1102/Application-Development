@@ -1,0 +1,58 @@
+<html lang="en">
+
+{{> head}}
+
+<body class="sb-nav-fixed">
+  {{> adminHeader}}
+  <div class="container py-5" style="margin-top: 3%; margin-left: 15%">
+    <center>
+      <div class="form-group" style="width: 30%">
+        <label>Search by Name:</label>
+        <div class="input-group">
+          <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
+            aria-describedby="search-addon" />
+          <hr -3 />
+          <button type="button" class="btn btn-success">search</button>
+        </div>
+      </div>
+    </center>
+    <div class="e-panel card" style="width: 90%; margin-left: 5%">
+      <div class="card-body">
+        <div class="card-title">
+        </div>
+        <div class="e-table">
+          <div class="table-responsive table-lg mt-3">
+            <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th class="max-width">Name</th>
+                  <th class="sortable">Date</th>
+                  <th>Role</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="text-nowrap align-middle">Adam Cotter</td>
+                  <td class="text-nowrap align-middle"><span>09 Dec 2017</span></td>
+                  <td class="text-nowrap align-middle"><span>Training staff</span></td>
+                </tr>
+                <tr>
+                  <td class="text-nowrap align-middle">Pauline Noble</td>
+                  <td class="text-nowrap align-middle"><span>26 Jan 2018</span></td>
+                  <td class="text-nowrap align-middle"><span>Training staff</span></td>
+                </tr>
+                <tr>
+                  <td class="text-nowrap align-middle">Sherilyn Metzel</td>
+                  <td class="text-nowrap align-middle"><span>27 Jan 2018</span></td>
+                  <td class="text-nowrap align-middle"><span>Trainer</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
